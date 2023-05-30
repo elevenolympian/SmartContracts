@@ -57,6 +57,12 @@ First, complete the [basic Rust setup instructions](./doc/rust-setup.md).
 
 ### Run
 
+Before running the application, please type the following command. This will clear the cargo cache and reinstall:
+
+```bash
+cargo update -p parity-db
+```
+
 Use Rust's native `cargo` command to build and launch the template node:
 
 ```sh
